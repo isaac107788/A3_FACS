@@ -74,3 +74,4 @@ Data da primeira pesquisa: 24 de novembro de 2026.
 - \`filme/2\`, \`atuou_em/3\`, \`trabalhou_com_diretor/3\`: AFI, BFI, BBFC, sitios dos estudios e fontes filmograficas indicadas acima.
 - \`genero/2\`: BBFC, Sony Pictures, 20th Century Studios e Universal Pictures.
 - \`parceira/2\`, \`noivado/3\`, \`filho_de/2\`, \`filha_de/2\`, \`ano_nascimento/2\`: Biography.com e PEOPLE.
+- reconhecimento_individual/6, indicacao_coletiva/4, homenagem/4: fontes institucionais e registros detalhados em docs/premiacoes_e_indicacoes.md.
