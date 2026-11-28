@@ -3,7 +3,13 @@
 **Instituição:** Universidade Salvador (UNIFACS)  
 **Disciplina:** Matemática Computacional  
 **Período:** 2º semestre  
-**Integrantes:** [Inserir nomes completos e RAs]  
+**Integrantes:**  
+1. Isaac Gomes Silva — RA: 12726131226  
+2. Otávio Santos Ferreira — RA: 1272616631  
+3. Arthur Veiga Cardoso de Oliveira — RA: 12726123805  
+4. Victor Hugo Perez De Miranda Pontes — RA: 1272613883  
+5. Marcos Fernandes — RA: 12726122094  
+6. João Ricardo Araújo de Magalhães — RA: 12726118078  
 **Docente:** [Inserir nome]  
 **Data:** [Inserir data de entrega]
 
