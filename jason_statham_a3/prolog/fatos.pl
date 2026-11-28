@@ -41,11 +41,14 @@ filme(snatch, 2000).
 filme(the_transporter, 2002).
 filme(the_italian_job, 2003).
 filme(crank, 2006).
+filme(war, 2007).
 filme(the_bank_job, 2008).
 filme(death_race, 2008).
 filme(the_expendables, 2010).
 filme(the_mechanic, 2011).
 filme(spy, 2015).
+filme(furious_7, 2015).
+filme(mechanic_resurrection, 2016).
 filme(the_meg, 2018).
 filme(fast_and_furious_presents_hobbs_and_shaw, 2019).
 filme(wrath_of_man, 2021).
@@ -63,11 +66,14 @@ titulo_original(snatch, 'Snatch').
 titulo_original(the_transporter, 'The Transporter').
 titulo_original(the_italian_job, 'The Italian Job').
 titulo_original(crank, 'Crank').
+titulo_original(war, 'War').
 titulo_original(the_bank_job, 'The Bank Job').
 titulo_original(death_race, 'Death Race').
 titulo_original(the_expendables, 'The Expendables').
 titulo_original(the_mechanic, 'The Mechanic').
 titulo_original(spy, 'Spy').
+titulo_original(furious_7, 'Furious 7').
+titulo_original(mechanic_resurrection, 'Mechanic: Resurrection').
 titulo_original(the_meg, 'The Meg').
 titulo_original(fast_and_furious_presents_hobbs_and_shaw, 'Fast & Furious Presents: Hobbs & Shaw').
 titulo_original(wrath_of_man, 'Wrath of Man').
@@ -86,11 +92,14 @@ atuou_em(jason_statham, snatch, turkish).
 atuou_em(jason_statham, the_transporter, frank_martin).
 atuou_em(jason_statham, the_italian_job, handsome_rob).
 atuou_em(jason_statham, crank, chev_chelios).
+atuou_em(jason_statham, war, jack_crawford).
 atuou_em(jason_statham, the_bank_job, terry_leather).
 atuou_em(jason_statham, death_race, jensen_ames).
 atuou_em(jason_statham, the_expendables, lee_christmas).
 atuou_em(jason_statham, the_mechanic, arthur_bishop).
 atuou_em(jason_statham, spy, rick_ford).
+atuou_em(jason_statham, furious_7, deckard_shaw).
+atuou_em(jason_statham, mechanic_resurrection, arthur_bishop).
 atuou_em(jason_statham, the_meg, jonas_taylor).
 atuou_em(jason_statham, fast_and_furious_presents_hobbs_and_shaw, deckard_shaw).
 atuou_em(jason_statham, wrath_of_man, h).
@@ -110,11 +119,14 @@ trabalhou_com_diretor(jason_statham, the_transporter, louis_leterrier).
 trabalhou_com_diretor(jason_statham, the_italian_job, f_gary_gray).
 trabalhou_com_diretor(jason_statham, crank, mark_neveldine).
 trabalhou_com_diretor(jason_statham, crank, brian_taylor).
+trabalhou_com_diretor(jason_statham, war, philip_atwell).
 trabalhou_com_diretor(jason_statham, the_bank_job, roger_donaldson).
 trabalhou_com_diretor(jason_statham, death_race, paul_w_s_anderson).
 trabalhou_com_diretor(jason_statham, the_expendables, sylvester_stallone).
 trabalhou_com_diretor(jason_statham, the_mechanic, simon_west).
 trabalhou_com_diretor(jason_statham, spy, paul_feig).
+trabalhou_com_diretor(jason_statham, furious_7, james_wan).
+trabalhou_com_diretor(jason_statham, mechanic_resurrection, dennis_gansel).
 trabalhou_com_diretor(jason_statham, the_meg, jon_turteltaub).
 trabalhou_com_diretor(jason_statham, fast_and_furious_presents_hobbs_and_shaw, david_leitch).
 trabalhou_com_diretor(jason_statham, wrath_of_man, guy_ritchie).
@@ -139,6 +151,7 @@ genero(the_italian_job, acao).
 genero(the_italian_job, crime).
 genero(crank, acao).
 genero(crank, suspense).
+genero(war, acao).
 genero(the_bank_job, crime).
 genero(the_bank_job, suspense).
 genero(death_race, acao).
@@ -147,6 +160,8 @@ genero(the_expendables, acao).
 genero(the_mechanic, acao).
 genero(spy, acao).
 genero(spy, comedia).
+genero(furious_7, acao).
+genero(mechanic_resurrection, acao).
 genero(the_meg, acao).
 genero(the_meg, ficcao_cientifica).
 genero(fast_and_furious_presents_hobbs_and_shaw, acao).
