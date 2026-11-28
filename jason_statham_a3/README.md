@@ -24,6 +24,15 @@ jason_statham_a3/
     \`-- roteiro_apresentacao.md
 \`\`\`
 
+## Documentacao da pesquisa
+
+- [Levantamento biografico e filmografico](docs/levantamento_biografico.md)
+- [Premiacoes e indicacoes](docs/premiacoes_e_indicacoes.md)
+- [Pesquisa e referencias](docs/pesquisa_e_referencias.md)
+- [Escopo e metodologia](docs/escopo_e_metodologia.md)
+- [Roteiro do relatorio](docs/roteiro_relatorio.md)
+- [Roteiro da apresentacao](docs/roteiro_apresentacao.md)
+
 ## Como executar online (SWISH)
 
 A ementa pede execucao online. O SWISH e o ambiente web oficial do ecossistema SWI-Prolog.
