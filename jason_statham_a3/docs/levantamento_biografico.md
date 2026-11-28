@@ -1,4 +1,4 @@
-# Levantamento biografico — Jason Statham
+# biografia — Jason Statham
 
 **Projeto:** A3 — Matematica Computacional Aplicada  
 **Tema:** Vida, trajetoria e carreira de Jason Statham  
