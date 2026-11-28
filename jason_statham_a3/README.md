@@ -63,7 +63,7 @@ Os testes verificam nascimento, calculo de idade antes e depois do aniversario, 
 
 ## Escopo e limites dos dados
 
-A base cadastra 21 filmes selecionados, incluindo creditos ate 2026; nao deve ser apresentada como filmografia integral e definitiva. Os generos foram registrados apenas onde ha cobertura na pesquisa. O ano adotado e o do lancamento comercial original indicado na documentacao.
+A base cadastra 24 filmes selecionados, incluindo creditos ate 2026; nao deve ser apresentada como filmografia integral e definitiva. Os generos foram registrados apenas onde ha cobertura na pesquisa. O ano adotado e o do lancamento comercial original indicado na documentacao.
 
 A Team England informa que Statham participou das seletivas olimpicas de 1988 e 1992, mas nao conquistou vaga. Portanto, os fatos nao o descrevem como atleta olimpico. A regra idade_completada_no_ano/3 retorna a idade que a pessoa completa durante determinado ano; idade_em_data/3 calcula a idade exata em uma data validada.
 
