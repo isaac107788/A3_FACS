@@ -1,40 +1,51 @@
-% ============================================================
-% Consultas para demonstracao em sala.
-% Carregue main.pl e execute cada consulta no terminal SWI-Prolog.
-% ============================================================
+% Consultas de demonstracao. Carregue main.pl antes de executar.
 
-% 1. Qual e a data de nascimento de Jason Statham?
+% 1. Nascimento e local de nascimento.
 % ?- data_nascimento(jason_statham, Data).
+% ?- local_nascimento(jason_statham, Cidade, Regiao, Pais).
 
-% 2. Quais esportes Jason praticou?
+% 2. Esporte e resultados da Commonwealth de 1990.
 % ?- pratica_esporte(jason_statham, Esporte).
-
-% 3. Quais foram os resultados nos Jogos da Commonwealth de 1990?
 % ?- resultado_competicao(jason_statham, jogos_commonwealth_auckland_1990, Prova, Posicao).
-
-% 4. Em quais provas ele ficou entre os dez primeiros?
 % ?- resultado_top_10(jason_statham, Evento, Prova, Posicao).
 
-% 5. Quais filmes de acao possuem participacao de Jason?
-% ?- filme_do_genero(jason_statham, Filme, acao).
-
-% 6. Com quais diretores Jason trabalhou?
-% ?- filme_com_diretor(jason_statham, Diretor, Filme).
-
-% 7. Com quais diretores ele colaborou em mais de um filme?
-% ?- colaboracao_recorrente(jason_statham, Diretor).
-
-% 8. Quais filmes foram lancados depois de 2010?
-% ?- filme_lancado_depois_de(jason_statham, 2010, Filme).
-
-% 9. Quantos filmes cadastrados possuem participacao dele?
-% ?- quantidade_de_filmes(jason_statham, Total).
-
-% 10. A regra reconhece uma trajetoria multidisciplinar?
+% 3. Trajetoria profissional multidisciplinar.
 % ?- trajetoria_multidisciplinar(jason_statham).
 
-% 11. Quais sao seus filhos cadastrados?
+% 4. Filmes de acao e filmes por intervalo de lancamento.
+% ?- filme_do_genero(jason_statham, Filme, acao).
+% ?- filme_no_intervalo(jason_statham, 2018, 2024, Filme).
+% ?- filme_lancado_depois_de(jason_statham, 2020, Filme).
+
+% 5. Colaboracoes recorrentes com diretores.
+% ?- colaboracao_recorrente(jason_statham, Diretor).
+
+% 6. Quantidade de filmes cadastrados.
+% ?- quantidade_de_filmes(jason_statham, Total).
+
+% 7. Personagens interpretados.
+% ?- atuou_em(jason_statham, Filme, Personagem).
+
+% 8. Familia.
 % ?- filho_de_pessoa(Filho, jason_statham).
 
-% 12. Que idade Jason completaria em 2026?
+% 9. Idade no ano ou em data exata.
 % ?- idade_completada_no_ano(jason_statham, 2026, Idade).
+% ?- idade_em_data(jason_statham, data(2026, 7, 25), Idade).
+% ?- idade_em_data(jason_statham, data(2026, 7, 26), Idade).
+
+% 10. Indicacoes e vitorias individuais.
+% ?- indicacao_individual(jason_statham, Evento, Ano, Categoria, Obra).
+% ?- premio_vencido(jason_statham, Evento, Ano, Categoria, Obra).
+% ?- quantidade_de_indicacoes_individuais(jason_statham, Total).
+% ?- quantidade_de_vitorias_individuais(jason_statham, Total).
+
+% 11. Indicacoes coletivas de filmes/equipes, separadas das individuais.
+% ?- indicacao_de_obra(Obra, razzie, 2024, Categoria).
+
+% 12. Homenagem esportiva.
+% ?- reconhecimento_esportivo(jason_statham, Ano, Descricao).
+
+% 13. Validacao de datas e anos bissextos.
+% ?- data_valida(data(2024, 2, 29)).
+% ?- data_valida(data(2023, 2, 29)).
