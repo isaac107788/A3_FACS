@@ -1,3 +1,4 @@
-% Arquivo principal: carregue este arquivo no SWI-Prolog.
-:- consult('fatos.pl').
-:- consult('regras.pl').
+% Arquivo principal. Execute [main] na pasta deste diretorio.
+:- ensure_loaded('fatos.pl').
+:- ensure_loaded('premiacoes.pl').
+:- ensure_loaded('regras.pl').
