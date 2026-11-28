@@ -61,7 +61,7 @@ ano_bissexto(Ano) :-
 ano_bissexto(Ano) :-
     integer(Ano),
     0 is Ano mod 4,
-    Ano mod 100 =\\= 0.
+    Ano mod 100 =\= 0.
 
 dias_no_mes(_, 1, 31).
 dias_no_mes(Ano, 2, 29) :-
