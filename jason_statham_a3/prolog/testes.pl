@@ -31,7 +31,7 @@ test(resultado_fora_do_top_10, [fail]) :-
 
 test(total_de_filmes) :-
     user:quantidade_de_filmes(jason_statham, Total),
-    assertion(Total =:= 21).
+    assertion(Total =:= 24).
 
 test(colaboracao_recorrente_guy_ritchie) :-
     user:colaboracao_recorrente(jason_statham, guy_ritchie).
