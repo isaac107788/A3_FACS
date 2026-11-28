@@ -323,7 +323,7 @@ data_maior_ou_igual(data(Ano, Mes, Dia), data(AnoN, MesN, DiaN)) :-
     ( Ano > AnoN
     ; Ano =:= AnoN, Mes > MesN
     ; Ano =:= AnoN, Mes =:= MesN, Dia >= DiaN
-    ).
+    ), !.
 
 % Idade exata na data indicada, considerando a ocorrencia do aniversario.
 idade_em_data(Pessoa, data(Ano, Mes, Dia), Idade) :-
