@@ -1,0 +1,31 @@
+name: Prolog tests
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "jason_statham_a3/prolog/**"
+      - ".github/workflows/prolog-tests.yml"
+  pull_request:
+    paths:
+      - "jason_statham_a3/prolog/**"
+      - ".github/workflows/prolog-tests.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  swi-prolog:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: jason_statham_a3/prolog
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Install SWI-Prolog
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y swi-prolog-nox
+      - name: Run PL-Unit tests
+        run: swipl -q -s testes.pl -g run_tests -t halt
