@@ -10,8 +10,7 @@
 4. Victor Hugo Perez De Miranda Pontes — RA: 1272613883  
 5. Marcos Fernandes — RA: 12726122094  
 6. João Ricardo Araújo de Magalhães — RA: 12726118078  
-**Docente:** [Inserir nome]  
-**Data:** [Inserir data de entrega]
+
 
 ## Resumo
 
