@@ -73,3 +73,12 @@ As premiacoes foram separadas em:
 - homenagem esportiva, fora do circuito cinematografico.
 
 Consulte docs/pesquisa_e_referencias.md, docs/levantamento_biografico.md e docs/premiacoes_e_indicacoes.md para fontes e ressalvas.
+
+## Documentação acadêmica
+
+- [Resumo expandido](docs/resumo_expandido.md)
+- [Escopo e metodologia](docs/escopo_e_metodologia.md)
+- [Pesquisa e referências](docs/pesquisa_e_referencias.md)
+- [Levantamento biográfico](docs/levantamento_biografico.md)
+- [Premiações e indicações](docs/premiacoes_e_indicacoes.md)
+- [Roteiro do relatório final](docs/roteiro_relatorio.md)
