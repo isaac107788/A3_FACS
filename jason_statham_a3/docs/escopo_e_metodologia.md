@@ -24,6 +24,7 @@ Construir uma base de fatos e regras capaz de armazenar informacoes verificaveis
 3. Modelagem e atividades anteriores ao cinema: campanhas e trabalhos de modelo.
 4. Carreira cinematografica: filmes, anos, personagens, diretores e generos confirmados.
 5. Vida pessoal: parceira, noivado e filhos, usando somente dados publicos relevantes ao objetivo academico.
+6. Reconhecimentos: premios e indicacoes individuais, indicacoes coletivas de obras e homenagens esportivas, mantendo essas categorias separadas.
 
 ## 5. Nivel de PROLOG
 
